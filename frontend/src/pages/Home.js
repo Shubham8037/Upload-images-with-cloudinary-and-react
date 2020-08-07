@@ -15,6 +15,7 @@ export default function Home() {
   useEffect(() => {
     loadImages();
   }, []);
+
   return (
     <div>
       <h1 className="title">Shubham Gallery</h1>
